@@ -22,6 +22,7 @@ brew 'mackup'
 
 # Development
 brew 'php70', args: ['with-debug', 'without-apache']
+brew 'mariadb'
 
 # Apps
 cask 'iterm2'
