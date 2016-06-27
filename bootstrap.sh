@@ -6,6 +6,8 @@ git pull origin master;
 
 function doIt() {
   cp .zshrc  ~/.zshrc;
+  cp .gitignore_global ~/.gitignore_global
+  cp .npmrc ~/.npmrc
   source ~/.zshrc;
 }
 
