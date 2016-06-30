@@ -24,9 +24,13 @@ mv composer.phar /usr/local/bin/composer
 # Install global Composer packages
 composer global require laravel/installer laravel/valet
 
+# Install ember-cli
+npm install -g ember-cli
+
+# Install bower
+npm install -g bower
+
 # Set OS X preferences
 # We will run this last because this will reload the shell
 source .osx
 
-echo 'Applying sublime config...'
-ln -s "$(pwd)/sublime/Packages/User/Preferences.sublime-settings" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
