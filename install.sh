@@ -23,6 +23,9 @@ mv composer.phar /usr/local/bin/composer
 
 # Install global Composer packages
 composer global require laravel/installer laravel/valet
+composer global require "squizlabs/php_codesniffer=*"
+composer global require phpmd/phpmd
+composer global require friendsofphp/php-cs-fixer
 
 # Install ember-cli
 npm install -g ember-cli

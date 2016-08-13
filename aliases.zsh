@@ -17,6 +17,9 @@ alias week='date +%V'
 # Laravel
 alias art="php artisan"
 
+# Ember
+alias e="ember"
+
 # Node
 alias nom="rm -rf node_modules && npm cache clear && npm install"
 alias bom="rm -rf bower_components && bower install"
